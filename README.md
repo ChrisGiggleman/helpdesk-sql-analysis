@@ -44,3 +44,14 @@ SELECT department, COUNT(*) AS ticket_count
 FROM tickets
 GROUP BY department
 ORDER BY ticket_count DESC;
+## Project Screenshots
+
+### Tickets Table (SQLite Database)
+![Tickets Table](screenshots/tickets_table.png)
+
+### Tickets by Department Query
+![Department Query](screenshots/department_query.png)
+
+### Tickets by Issue Type Query
+![Issue Type Query](screenshots/issue_type_query.png)
+
