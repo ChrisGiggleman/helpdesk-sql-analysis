@@ -1,10 +1,24 @@
-# Help Desk SQL Analysis
+# Helpdesk SQL Analysis Project
 
-## Project Overview
-This project demonstrates SQL-based analysis of IT help desk ticket data using SQLite and DBeaver. The dataset was exported from Excel and loaded into a relational database using Python.
+This project demonstrates how to transform raw helpdesk ticket data into a structured SQLite database and perform analysis using SQL queries.
 
-The goal of this project is to practice real-world data analyst workflows:
-CSV → Database → SQL Queries → Insights
+The workflow includes:
+
+1. Exporting helpdesk ticket data to CSV
+2. Loading the dataset into SQLite using Python and pandas
+3. Writing SQL queries to analyze ticket trends
+4. Visualizing ticket metrics using Excel pivot tables
+
+This project simulates real-world IT support reporting and analytics tasks.
+
+## Skills Demonstrated
+
+- SQL querying and aggregation
+- SQLite database creation and management
+- Python data ingestion with pandas
+- Data analysis and reporting
+- Helpdesk ticket analytics
+- GitHub project documentation
 
 ## Dataset
 The dataset contains IT help desk ticket records including:
@@ -15,11 +29,16 @@ The dataset contains IT help desk ticket records including:
 - Technician
 - Ticket Date
 
-## Tools Used
-- Python (pandas, sqlite3)
+## Technologies Used
+
+- Python
+- Pandas
 - SQLite
-- DBeaver
 - SQL
+- DBeaver
+- Excel
+- GitHub
+
 
 ## Analysis Performed
 - Ticket volume by department
@@ -38,20 +57,22 @@ helpdesk-sql-analysis/
 └── sql/
     └── analysis_queries.sql  # SQL analysis queries
 ```
-## Example Query
+## Example Queries
+
+### Tickets by Department
 ```sql
 SELECT department, COUNT(*) AS ticket_count
 FROM tickets
 GROUP BY department
 ORDER BY ticket_count DESC;
-## Project Screenshots
+```
 
-### Tickets Table (SQLite Database)
-![Tickets Table](screenshots/tickets_table.png)
+### Tickets by Issue Type
+```sql
+SELECT issue_type, COUNT(*) AS ticket_count
+FROM tickets
+GROUP BY issue_type
+ORDER BY ticket_count DESC;
+```
 
-### Tickets by Department Query
-![Department Query](screenshots/department_query.png)
-
-### Tickets by Issue Type Query
-![Issue Type Query](screenshots/issue_type_query.png)
 
