@@ -29,14 +29,14 @@ The dataset contains IT help desk ticket records including:
 - Technician workload and performance
 
 ## Repository Structure
-
 ```
-helpdesk-sql-analysis
-│
-├── Create_db.py
-├── helpdesk.db
-├── helpdesk_tickets.csv
-└── sql/analysis_queries.sql
+helpdesk-sql-analysis/
+├── Create_db.py              # Builds SQLite database from CSV
+├── helpdesk.db               # SQLite database
+├── helpdesk_tickets.csv      # Source dataset
+├── README.md
+└── sql/
+    └── analysis_queries.sql  # SQL analysis queries
 ```
 ## Example Query
 ```sql
