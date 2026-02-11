@@ -1,0 +1,22 @@
+Ticket_ID,Date,Month,MonthSort,Department,Issue_Type,Priority,Resolution_Time_Hours,Status,Technician
+1001,1/2/2025,Jan-2025,1/1/2025,HR,Password Reset,Low,0.5,Closed,Alex
+1002,1/3/2025,Jan-2025,1/1/2025,Finance,Software Install,Medium,2,Closed,Sam
+1003,1/5/2025,Jan-2025,1/1/2025,IT,Network Issue,High,5,Closed,Jordan
+1004,1/6/2025,Jan-2025,1/1/2025,HR,Account Lockout,Low,0.3,Closed,Alex
+1005,1/7/2025,Jan-2025,1/1/2025,Sales,Laptop Issue,High,6,Closed,Sam
+1006,1/8/2025,Jan-2025,1/1/2025,Finance,VPN Issue,Medium,3,Closed,Jordan
+1007,1/9/2025,Jan-2025,1/1/2025,IT,Printer Issue,Low,1,Closed,Alex
+1008,1/10/2025,Jan-2025,1/1/2025,Sales,Password Reset,Low,0.4,Closed,Sam
+1009,1/11/2025,Jan-2025,1/1/2025,HR,Email Issue,Medium,2,Closed,Jordan
+1010,1/12/2025,Jan-2025,1/1/2025,IT,Server Alert,High,8,Closed,Alex
+1011,2/3/2025,Feb-2025,2/1/2025,HR,Password Reset,Low,0.4,Closed,Alex
+1012,2/5/2025,Feb-2025,2/1/2025,IT,Network Issue,High,4,Closed,Jordan
+1013,2/7/2025,Feb-2025,2/1/2025,Finance,Software Install,Medium,1.5,Closed,Sam
+1014,3/1/2025,Mar-2025,3/1/2025,Sales,Laptop Issue,High,5,Closed,Sam
+1015,3/4/2025,Mar-2025,3/1/2025,IT,Printer Issue,Low,0.8,Closed,Alex
+1016,3/10/2025,Mar-2025,3/1/2025,HR,Email Issue,Medium,2.5,Closed,Jordan
+1017,4/2/2025,Apr-2025,4/1/2025,IT,Server Alert,High,6,Closed,Alex
+1018,4/6/2025,Apr-2025,4/1/2025,Finance,VPN Issue,Medium,3,Closed,Jordan
+1019,5/1/2025,May-2025,5/1/2025,Sales,Password Reset,Low,0.3,Closed,Sam
+1020,5/9/2025,May-2025,5/1/2025,HR,Account Lockout,Low,0.5,Closed,Alex
+,,,,,,,,,
