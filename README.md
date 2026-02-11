@@ -29,13 +29,15 @@ The dataset contains IT help desk ticket records including:
 - Technician workload and performance
 
 ## Repository Structure
+
+```
 helpdesk-sql-analysis
 │
 ├── Create_db.py
 ├── helpdesk.db
 ├── helpdesk_tickets.csv
 └── sql/analysis_queries.sql
-
+```
 ## Example Query
 ```sql
 SELECT department, COUNT(*) AS ticket_count
