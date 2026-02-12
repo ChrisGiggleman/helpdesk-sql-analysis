@@ -30,10 +30,12 @@ ORDER BY MIN(monthsort);
 -- =========================
 -- Average Resolution Time by Priority
 -- =========================
-SELECT priority,
-       ROUND(AVG(resolution_time_hours), 2) AS avg_resolution_time
+SELECT month, AVG(resolution_time_hours) AS avg_resolution_time
 FROM tickets
-GROUP BY priority;
+WHERE month IS NOT NULL
+GROUP BY month
+ORDER BY month;
+
 
 -- =========================
 -- Technician Performance
@@ -42,4 +44,8 @@ SELECT technician,
        COUNT(*) AS tickets_handled,
        ROUND(AVG(resolution_time_hours), 2) AS avg_resolution_time
 FROM tickets
-GROUP BY technician;
+WHERE technician IS NOT NULL
+  AND resolution_time_hours IS NOT NULL
+GROUP BY technician
+ORDER BY tickets_handled DESC;
+
