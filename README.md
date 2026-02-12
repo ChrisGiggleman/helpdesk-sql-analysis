@@ -74,5 +74,28 @@ FROM tickets
 GROUP BY issue_type
 ORDER BY ticket_count DESC;
 ```
+## Project Screenshots
 
+### Tickets Table (SQLite Database)
+![Tickets Table](screenshots/tickets_table.png)
+
+### Tickets by Department Query
+![Department Query](screenshots/department_query.png)
+![Department Query](screenshots/department_table.png)
+
+### Tickets by Issue Type Query
+![Issue Type Query](screenshots/issue_type_query.png)
+![Issue Type Query](screenshots/issue_type_table.png)
+
+### Tickets by Monthly Ticket Volume Query
+![Issue Type Query](screenshots/monthly_ticket_volume_query.png)
+![Issue Type Query](screenshots/monthly_ticket_volume_table.png)
+
+### Tickets by Average Resolution Time by Priority
+![Issue Type Query](screenshots/average_resolution_time_by_priority.png)
+![Issue Type Query](screenshots/average_resolution_time_by_priority_table.png)
+
+### Tickets by Technician Performance
+![Issue Type Query](screenshots/technician_performance_query.png)
+![Issue Type Query](screenshots/technician_performance_table.png)
 
